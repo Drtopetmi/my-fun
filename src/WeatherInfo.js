@@ -17,12 +17,13 @@ export default function WeatherInfo(props) {
           <div className="Clear-fix">
             <div className="float-left">
               <WeatherIcon code={props.data.icon} />
-              <img src={props.data.iconUrl} alt={props.data.description} />
             </div>
-            <span className="temperature">
-              {Math.round(props.data.temperature)}
-            </span>
-            <span className="unit">℃</span>
+            <div className="float-left">
+              <span className="temperature">
+                {Math.round(props.data.temperature)}
+              </span>
+              <span className="unit">℃</span>
+            </div>
           </div>
         </div>
         <div className="col-6">

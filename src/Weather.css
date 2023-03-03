@@ -40,7 +40,7 @@
   line-height: 1;
   top: -34px;
 }
-.Weather img {
+.Weather canvas {
   display: inline-block;
   height: 64px;
 }
