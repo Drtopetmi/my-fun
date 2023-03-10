@@ -26,12 +26,12 @@
 }
 .Weather .temperature {
   position: relative;
-  color: rgb(110, 104, 104);
+  color: rgb(33, 33, 33);
   font-size: 80px;
   line-height: 64px;
   top: -45px;
   font-weight: 300;
-  right: -40px;
+  right: -50px;
 }
 
 .Weather canvas {
